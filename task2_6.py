@@ -13,3 +13,5 @@ def get_unique_names(names):
 
 
 print(get_unique_names(names))
+# Good. Interesting solution with functions but it could be done with dicts
+# print(list({}.fromkeys(gruppa).keys()))
