@@ -1,6 +1,8 @@
 import pickle
+
 with open("test/data/file.txt", 'rb') as file:
     operations = pickle.load(file)
+
 for operation in operations:
     left, right, element = operation
     if element == 1:
@@ -9,3 +11,6 @@ for operation in operations:
         print(f"{left} * {right}")
     else:
         print(f"{left} / {right}")
+
+# Good but it would be nice to get results too (
+# -1 point
