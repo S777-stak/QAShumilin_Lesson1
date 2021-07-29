@@ -44,3 +44,11 @@ class Toshiba:
 if __name__ == '__main__':
     company = Toshiba("New_Toshiba", 300000000)
     print(company.name)
+
+# TODO: russian works in class with english names -1 point
+# TODO: excessive docstring outside of methods -1 point
+# TODO: No logic in class just setters and getters -2 points
+# TODO: static fields in class present but never used -1 point
+# TODO: 2 returns in method display_employee
+# TODO: well this setters tell me that anyone from world could update
+#  name, address, employyes of company -2 points

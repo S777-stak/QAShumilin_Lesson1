@@ -46,3 +46,11 @@ if __name__ == '__main__':
     print(john.name)
     john.name = "Josef"
     print(john.name)
+
+# TODO: russian works in class with english names -1 point
+# TODO: excessive docstring outside of methods -1 point
+# TODO: No logic in class just setters and getters -2 points
+# TODO: static fields in class present but never used -1 point
+# TODO: 2 returns in method display_employee -1 point
+#  and it is sounds weard: employee.display_employee()
+# TODO: as I can see everyone can update name of employee -1 point
