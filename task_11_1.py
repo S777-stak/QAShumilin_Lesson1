@@ -9,8 +9,13 @@ class Vehicle:
 
 
 class Truck(Vehicle):
-    def __init__(self, engine_power: int, body_volume: int, number_seats: int,
-                 carrying_capacity: int):
+    def __init__(
+        self,
+        engine_power: int,
+        body_volume: int,
+        number_seats: int,
+        carrying_capacity: int
+    ):
         super().__init__(engine_power, body_volume, number_seats)
         self.carrying_capacity = carrying_capacity
 
@@ -28,4 +33,5 @@ if __name__ == '__main__':
     DAFF = Truck(5000, 3000, 3, 1500)
     DAFF.Carry_cargo()
 
-
+# not bad but would be nice to see some logic which modificate state of objects
+# -2 points
