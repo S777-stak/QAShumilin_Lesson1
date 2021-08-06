@@ -1,4 +1,4 @@
-from Lesson_12.truck import Truck
+from SergeyShumilin.QAShumilin_Lesson1.truck import Truck
 
 if __name__ == '__main__':
     truck = Truck()
@@ -10,3 +10,4 @@ if __name__ == '__main__':
     print(truck.get_coordinates())
     truck.move_cargo("forward", 10)
     print(truck.get_coordinates())
+

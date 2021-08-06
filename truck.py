@@ -1,5 +1,5 @@
-from Lesson_12.carrying import ICarrying
-from Lesson_12.traveling import ITraveling
+from .carrying import ICarrying
+from .traveling import ITraveling
 
 
 class Truck(ICarrying, ITraveling):
@@ -64,3 +64,4 @@ class Truck(ICarrying, ITraveling):
 
     def get_coordinates(self) -> tuple:
         return self.__x, self.__y, self.__z
+
